@@ -24,6 +24,6 @@ steps:
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)/dist/App'
+    targetPath: '$(Pipeline.Workspace)/s/dist/App'
     artifact: 'OIDC'
     publishLocation: 'pipeline'
